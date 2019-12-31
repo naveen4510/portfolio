@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('link href="https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	padding: 0px;
+	margin: 0px;
+	font-family:'Lato';
+}
+.navbar-brand
+{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 38px;
+	color:black;
+	
+}
+.navbar-brand:hover
+{
+	transform: scale(1.1);
+}
+.navbar
+{
+	position: sticky;
+		top: 0px;
+	z-index: 10;
+}
+.nav-link
+{
+	font-size: 15px;
+	color: black !important;
+	margin: 15px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+.nav-link:hover
+{
+	color:indianred !important;
+}
+.active .nav-link
+{
+	color: indianred !important;
+}
+.menu-right-btn
+{
+	padding: 13px 46px;
+	margin-right: 5%;
+	background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover
+{
+	color: #fff;
+	background-color: indianred !important;
+}
+.site-content
+{
+	background-image:url("pexels-photo-3270577.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.site-title,.site-desc
+{
+	color: #FFFFFF;
+	
+}
+.site-title
+{
+	margin-top: 20%;
+	margin-bottom: 6%;
+	color: black;
+	
+	font-size: 50px;
+}
+.site-desc
+{
+	font-size: 14px;
+	padding-left: 15%;
+	color: black;
+	font-weight: bold;
+}
+.site-btn1
+{
+	background-color: #000000;
+	color: #FFFEFE;
+	margin-left: 20%;
+}
+.site-btn1
+{
+	background-color:#FFFFFF;
+	
+}
+.site-btn1,.site-btn2
+{
+	margin-top: 5%;
+	margin-bottom: 40%;
+}
+/*----------------section1--------------------*/
+.section-1 .heading-1
+{
+	margin-top: 8%;
+}
+.section-1 .heading-2
+{
+	margin-bottom: 5%;
+	font-size: 39px;
+}
+.section-1 .para-1
+{
+	margin-left: 20%;
+	width: 60%;
+	margin-bottom: 5%;
+}
+.section-1 .card-text,.para-1
+{
+	color: rgba(0,0,0,0.59);
+}
+.section-1
+{
+	margin-bottom: 8%;
+}
+.card
+{
+	width: 20rem;
+}
+/*----------------section2--------------------*/
+.section-2 .container-fluid
+{
+	background-image:url("pexels-photo-373893.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.section-2 .heading-1
+{
+	margin-top: 20%;
+	margin-bottom: 4%;
+	width: 80%;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.section-2 .para
+{
+	width: 80%;
+	margin-bottom: 7%;
+	color:black;
+}
+.section-2 .btn
+{
+	margin-bottom: 15%;
+	width: 30%;
+	padding: 2% 5%;
+}
+/*----------------section3--------------------*/
+.section-3
+{
+	margin-top: 6%;
+}
+.section-3 i
+{
+	color:black;
+}
+.section-3 p
+{
+	color: rgba(0,0,0,0.59);
+}
+/*----------------section4--------------------*/
+.section-4
+{
+	margin-top: 8%;
+}
+.section-4.row,.col-md-5,.col-md-7
+{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.section-4 a
+{
+	font-size: 40px;
+	color: lightseagreen;
+	text-decoration: none !important;
+}
+.section-4 .para-1
+{
+	color: white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 23px;
+}
+@media screen and only(max-width:600px)
+{
+	#img7
+	{
+		width:250px;
+	}
+
+}
+/*----------------social--------------------*/
+.social
+{
+	color: lightcoral;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+@media screen and (max-width:768px)
+{
+	.section-1.card
+	{
+		width: 14rem;
+	}
+	.section-4.col-md-7 img
+	{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width:320px)
+{
+	.site-content.site-title
+	{
+		font-size:30px;
+		padding-left: 15%;
+	}
+	.site-content.site-btn2
+	{
+		display: none;
+	}
+	.site-content.site-btn1
+	{
+		margin-left: 15%;
+	}
+	.section-1.heading-1,.section-1.heading-2
+	{
+		font-size: 25px;
+	}
+	.section-1.col-md-4
+	{
+		padding: 5%;
+		margin-left: 8%;
+	}
+	.section-1.card
+	{
+		width: 14rem;
+	}
+	.section-4.col-md-5
+	{
+		padding: 0% 15%;
+	}
+	.footer input[type="button"]
+	{
+		margin-top: 5%;
+	}
+}
+.gallery img
+{
+	
+	width: 250px;
+	height: 250px;
+	
+	
+	margin-top: 100px;
+	margin-bottom: 5px;
+		
+	margin-right: 20px;
+	
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+	margin-top: 30px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+#Services
+{
+	border-radius:20px;
+	color:white;
+	width:150px;
+	height:50px;
+	background-color: gold;
+}
